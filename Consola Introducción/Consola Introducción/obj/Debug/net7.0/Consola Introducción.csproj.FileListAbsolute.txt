@@ -1,0 +1,15 @@
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\bin\Debug\net7.0\Consola Introducción.exe
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\bin\Debug\net7.0\Consola Introducción.deps.json
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\bin\Debug\net7.0\Consola Introducción.runtimeconfig.json
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\bin\Debug\net7.0\Consola Introducción.dll
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\bin\Debug\net7.0\Consola Introducción.pdb
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\obj\Debug\net7.0\Consola Introducción.csproj.AssemblyReference.cache
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\obj\Debug\net7.0\Consola Introducción.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\obj\Debug\net7.0\Consola Introducción.AssemblyInfoInputs.cache
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\obj\Debug\net7.0\Consola Introducción.AssemblyInfo.cs
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\obj\Debug\net7.0\Consola Introducción.csproj.CoreCompileInputs.cache
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\obj\Debug\net7.0\Consola Introducción.dll
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\obj\Debug\net7.0\refint\Consola Introducción.dll
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\obj\Debug\net7.0\Consola Introducción.pdb
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\obj\Debug\net7.0\Consola Introducción.genruntimeconfig.cache
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Consola Introducción\Consola Introducción\obj\Debug\net7.0\ref\Consola Introducción.dll

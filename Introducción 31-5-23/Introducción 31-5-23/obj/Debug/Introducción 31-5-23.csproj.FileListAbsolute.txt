@@ -1,0 +1,8 @@
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Introducción 31-5-23\Introducción 31-5-23\obj\Debug\Introducción 31-5-23.csproj.AssemblyReference.cache
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Introducción 31-5-23\Introducción 31-5-23\obj\Debug\Introducción 31-5-23.csproj.SuggestedBindingRedirects.cache
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Introducción 31-5-23\Introducción 31-5-23\obj\Debug\Introducción 31-5-23.csproj.CoreCompileInputs.cache
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Introducción 31-5-23\Introducción 31-5-23\bin\Debug\Introducción 31-5-23.exe.config
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Introducción 31-5-23\Introducción 31-5-23\bin\Debug\Introducción 31-5-23.exe
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Introducción 31-5-23\Introducción 31-5-23\bin\Debug\Introducción 31-5-23.pdb
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Introducción 31-5-23\Introducción 31-5-23\obj\Debug\Introducción 31-5-23.exe
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Introducción 31-5-23\Introducción 31-5-23\obj\Debug\Introducción 31-5-23.pdb

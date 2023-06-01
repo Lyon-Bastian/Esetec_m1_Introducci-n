@@ -4,8 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Pulsa una tecla");
+            string diaDeLaSemana = "Viernes";
+            Console.WriteLine(diaDeLaSemana);
+            Console.WriteLine("Hola, hoy es " + diaDeLaSemana + " ¿Cómo estás?");
+            Console.WriteLine("Yo estyoy bien");
+            Console.WriteLine("¿Y tú?");
+            Console.WriteLine("Estoy de " + diaDeLaSemana);
             Console.ReadKey();
         }
     }

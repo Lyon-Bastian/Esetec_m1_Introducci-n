@@ -1,0 +1,8 @@
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Clase 2 de Junio\Clase 2 de Junio\bin\Debug\Clase 2 de Junio.exe.config
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Clase 2 de Junio\Clase 2 de Junio\bin\Debug\Clase 2 de Junio.exe
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Clase 2 de Junio\Clase 2 de Junio\bin\Debug\Clase 2 de Junio.pdb
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Clase 2 de Junio\Clase 2 de Junio\obj\Debug\Clase 2 de Junio.csproj.AssemblyReference.cache
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Clase 2 de Junio\Clase 2 de Junio\obj\Debug\Clase 2 de Junio.csproj.SuggestedBindingRedirects.cache
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Clase 2 de Junio\Clase 2 de Junio\obj\Debug\Clase 2 de Junio.csproj.CoreCompileInputs.cache
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Clase 2 de Junio\Clase 2 de Junio\obj\Debug\Clase 2 de Junio.exe
+C:\Users\AulaT\Desktop\Alejandro Unity\Código\Esetec_m1_Introducci-n\Clase 2 de Junio\Clase 2 de Junio\obj\Debug\Clase 2 de Junio.pdb

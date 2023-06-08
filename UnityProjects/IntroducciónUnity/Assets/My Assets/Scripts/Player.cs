@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -6,15 +7,23 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public int velocidad;
-    public int vida;
+    public int vida; //esto añade el parametro "Vida" al inspector del personaje.
     public float valorGravedad = 9.81f;
     CharacterController controller;
     public TextMeshProUGUI vidaTexto;
+    public TextMeshProUGUI tiempoTexto;
+    public GameObject comidaPrefab;
+    private Vector3 posicionInicialPlayer;
+
+    //Contador
+    float contadorSegundos = 0.0f;
+    int tiempoCrearComida = 10;
 
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        posicionInicialPlayer = gameObject.transform.position;
         //puntuacion = 10;
         //gameObject.name = "Billy";
         //gameObject.SetActive(false);
@@ -34,6 +43,45 @@ public class Player : MonoBehaviour
     public void Update()
     {
         Movement();
+        DebajoDelSuelo();
+        Contador();
+        crearComida();
+    }
+
+    public void crearComida()
+    {
+        if (contadorSegundos > tiempoCrearComida)
+        {
+            Debug.Log("Crear Comida");
+            tiempoCrearComida = tiempoCrearComida + 10;
+
+            int x = UnityEngine.Random.Range(-40, 40);
+            int z = UnityEngine.Random.Range(-40, 40);
+            int y = UnityEngine.Random.Range(1, 4);
+
+            Vector3 nuevaPosicion = new Vector3(x, y, z);
+            Instantiate(comidaPrefab, nuevaPosicion, Quaternion.identity);
+        }
+    }
+
+    public void Contador()
+    {
+        //El tiempo en segundos que tardó en completarse el último Frame
+        
+        contadorSegundos += Time.deltaTime;        
+        tiempoTexto.text = "Tiempo: " + Convert.ToInt32(contadorSegundos).ToString();
+    }
+
+    public void DebajoDelSuelo()
+    {
+        //gameObject.GetComponent<Transform>().position.y
+        if (gameObject.transform.position.y < 0)
+        {
+            //gameObject.transform.position = new Vector3(-14f, 1f, -4f);
+            gameObject.transform.position = posicionInicialPlayer;
+            vida--;
+            vidaTexto.text = "Vida: " + vida.ToString();
+        }
     }
 
     public void Movement()
@@ -51,7 +99,7 @@ public class Player : MonoBehaviour
         //direction.y -= valorGravedad;
 
         //Saltar
-        if (Input.GetButton("Jump"))
+        if (Input.GetButton("Jump")) //"Jump" está asociado en Unity a la tecla espacio por defecto.
         {
             direction.y = 15;
         }
@@ -68,7 +116,7 @@ public class Player : MonoBehaviour
             vida = vida - 1; //Resta 1 vida a las vidas actuales (me da vergüenza saber que tuve que esperar a que me lo dijeran D=)
             //vida -= 1;
             //vida--;
-            other.gameObject.SetActive(false);
+            other.gameObject.SetActive(false); //Esto hace desaparecer el objeto una vez es tocado
             vidaTexto.text ="Vida: " + vida.ToString();
         }
 

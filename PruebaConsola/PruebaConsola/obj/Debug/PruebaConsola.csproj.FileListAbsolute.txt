@@ -1,0 +1,8 @@
+C:\Users\AulaT\source\repos\PruebaConsola\PruebaConsola\bin\Debug\PruebaConsola.exe.config
+C:\Users\AulaT\source\repos\PruebaConsola\PruebaConsola\bin\Debug\PruebaConsola.exe
+C:\Users\AulaT\source\repos\PruebaConsola\PruebaConsola\bin\Debug\PruebaConsola.pdb
+C:\Users\AulaT\source\repos\PruebaConsola\PruebaConsola\obj\Debug\PruebaConsola.csproj.AssemblyReference.cache
+C:\Users\AulaT\source\repos\PruebaConsola\PruebaConsola\obj\Debug\PruebaConsola.csproj.SuggestedBindingRedirects.cache
+C:\Users\AulaT\source\repos\PruebaConsola\PruebaConsola\obj\Debug\PruebaConsola.csproj.CoreCompileInputs.cache
+C:\Users\AulaT\source\repos\PruebaConsola\PruebaConsola\obj\Debug\PruebaConsola.exe
+C:\Users\AulaT\source\repos\PruebaConsola\PruebaConsola\obj\Debug\PruebaConsola.pdb

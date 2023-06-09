@@ -13,11 +13,13 @@ public class Player : MonoBehaviour
     public TextMeshProUGUI vidaTexto;
     public TextMeshProUGUI tiempoTexto;
     public GameObject comidaPrefab;
+    public GameObject bombaPrefab;
     private Vector3 posicionInicialPlayer;
 
     //Contador
     float contadorSegundos = 0.0f;
     int tiempoCrearComida = 10;
+    int tiempoCrearBomba = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +48,7 @@ public class Player : MonoBehaviour
         DebajoDelSuelo();
         Contador();
         crearComida();
+        crearBomba();
     }
 
     public void crearComida()
@@ -64,6 +67,21 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void crearBomba()
+    {
+        if (contadorSegundos > tiempoCrearBomba)
+        {
+            Debug.Log("Crear bomba");
+            tiempoCrearBomba = tiempoCrearBomba + 5;
+
+            int x = UnityEngine.Random.Range(-40, 40);
+            int z = UnityEngine.Random.Range(-40, 40);
+            int y = UnityEngine.Random.Range(1, 4);
+
+            Vector3 nuevaPosicion = new Vector3(x, y, z);
+            Instantiate(bombaPrefab, nuevaPosicion, Quaternion.identity);
+        }
+    }
     public void Contador()
     {
         //El tiempo en segundos que tardó en completarse el último Frame
@@ -117,6 +135,7 @@ public class Player : MonoBehaviour
             //vida -= 1;
             //vida--;
             other.gameObject.SetActive(false); //Esto hace desaparecer el objeto una vez es tocado
+            gameObject.GetComponent<AudioSource>().Play();
             vidaTexto.text ="Vida: " + vida.ToString();
         }
 
